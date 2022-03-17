@@ -67,7 +67,38 @@ a:focus {
   color: #cc6540;
   text-decoration: underline;
 }
-<a href="#" class="button" > Read more</a > .button {
+<a
+  href="mailto:yasperspective@gmail.com"
+  class="button contact"
+  > Send
+  me
+  an
+  email</a
+  > .button.contact {
+  background-color: transparent;
+  color: #52a7cc;
+  text-transform: uppercase;
+  border: 2px solid #52a7cc;
+}
+.button.contact:hover {
+  background-color: #52a7cc;
+  color: #ffffff;
+}
+.button.contact:active {
+  /* selected link */
+  color: #fabb7c;
+}
+
+<a href="#" class="button" > Read more</a > .button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+.button:active {
+  /* selected link */
+  color: #fabb7c;
+}
+
+.button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #52a7cc;
   color: #ffffff; /* needed to override the default link color */
@@ -76,12 +107,4 @@ a:focus {
   border-radius: 3px;
   border-bottom: 2px solid #52a7cc; /* width of the border, type, color */
   transition: 0.2s opacity;
-}
-.button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
-  text-decoration: none;
-}
-.button:active {
-  /* selected link */
-  color: #fabb7c;
 }
