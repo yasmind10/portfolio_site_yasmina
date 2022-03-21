@@ -67,7 +67,13 @@ a:focus {
   color: #cc6540;
   text-decoration: underline;
 }
-<a href="mailto:yasperspective@gmail.com" class="button contact"> Send me an email</a>
+<a
+  href="mailto:yasperspective@gmail.com"
+  class="button contact"
+  > Send
+  me
+  an
+  email</a
   > .button.contact {
   background-color: transparent;
   color: #52a7cc;
@@ -83,9 +89,13 @@ a:focus {
   color: #fabb7c;
 }
 
-
-<a href="files/((Yasmina's Resume)).pdf" class="view cv"> See my cv</a>
- .button.contact {
+<a
+  href="files/((Yasmina's Resume)).pdf"
+  class="view cv"
+  > See
+  my
+  cv</a
+  > .button.contact {
   background-color: transparent;
   color: #52a7cc;
   text-transform: uppercase;
@@ -100,18 +110,7 @@ a:focus {
   color: #fabb7c;
 }
 
-
-
-
-
-
-
-
-
-<a href="#" class="button" > Read more</a > 
-
-
-.button:hover {
+<a href="#" class="button" > Read more</a > .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
@@ -119,13 +118,6 @@ a:focus {
   /* selected link */
   color: #fabb7c;
 }
-
-
-
-
-
-
-
 
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
