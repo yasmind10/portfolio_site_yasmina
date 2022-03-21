@@ -123,6 +123,67 @@ selector {
   float: right;
   width: 80%;
 }
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
+
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+
+.logo {
+  max-width: 250px;
+}
+
+header {
+  background-color: #ffe4c4;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a:visited {
+  padding: 0 15px;
+}
+
+nav > ul > li > a:active {
+  padding: 0 15px;
+}
+
+nav > ul > li > a:hover {
+  padding: 0 15px;
+}
+
+#hero {
+  background-color: #ffe4c4;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero h1 {
+  margin: 0;
+  padding: 0.67em 0;
+}
+
+main {
+  padding-top: 133px;
+}
+
 <a href="#" class="button" > Read more</a > .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
