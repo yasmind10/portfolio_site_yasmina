@@ -223,13 +223,28 @@ Extra-large devices (1920px or larger)
   margin-right: auto;
 }
 
-
 #hero span {
   display: block;
 }
 
 .col-md-6 {
   width: 50%;
+}
+@keyframes color-change {
+  from {
+    fill: #edc655;
+  }
+  to {
+    fill: #f76414;
+  }
+}
+
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
 }
 
 .button:hover {
@@ -256,20 +271,6 @@ Extra-large devices (1920px or larger)
 .button:hover {
   opacity: 0.8;
 }
-
-.button {
-  display: inline-block;
-  background-color: #52a7cc;
-  color: white;
-  font-weight: 400;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #52a7cc;
-  transition: 0.2s opacity;
-}
-
-
 
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
