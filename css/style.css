@@ -132,6 +132,7 @@ header {
   background-color: #ffe4c4;
   text-align: center;
   padding: 10px 0;
+  position: fixed
 }
 
 nav > ul {
@@ -205,6 +206,15 @@ Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {
 }
+
+#hero span {
+  display: block;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
 
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
