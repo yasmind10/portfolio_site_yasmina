@@ -16,7 +16,6 @@ Secondary Color (Orange): #FABB7C;
 body {
   font-family: "Lato", sans-serif;
 }
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 body {
   background-color: #ffffff;
   font-family: "Lato", sans-serif;
@@ -74,14 +73,8 @@ a:focus {
   color: #cc6540;
   text-decoration: underline;
 }
-<a
-  href="mailto:yasperspective@gmail.com"
-  class="button contact"
-  > Send
-  me
-  an
-  email</a
-  > .button.contact {
+
+.button.contact {
   background-color: transparent;
   color: #52a7cc;
   text-transform: uppercase;
@@ -96,13 +89,7 @@ a:focus {
   color: #fabb7c;
 }
 
-<a
-  href="files/((Yasmina's Resume)).pdf"
-  class="view cv"
-  > See
-  my
-  cv</a
-  > .button.contact {
+.button.contact {
   background-color: transparent;
   color: #52a7cc;
   text-transform: uppercase;
@@ -138,7 +125,7 @@ selector {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 
 header {
@@ -184,7 +171,42 @@ main {
   padding-top: 133px;
 }
 
-<a href="#" class="button" > Read more</a > .button:hover {
+header {
+  text-align: unset;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {
+}
+
+.button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
