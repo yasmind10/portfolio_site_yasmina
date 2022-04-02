@@ -132,7 +132,7 @@ header {
   background-color: #ffe4c4;
   text-align: center;
   padding: 10px 0;
-  position: fixed
+  position: fixed;
 }
 
 nav > ul {
@@ -207,6 +207,23 @@ Extra-large devices (1920px or larger)
 @media only screen and (min-width: 1920px) {
 }
 
+[class*="col-"] {
+  float: left;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 #hero span {
   display: block;
 }
@@ -214,7 +231,6 @@ Extra-large devices (1920px or larger)
 .col-md-6 {
   width: 50%;
 }
-
 
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
@@ -226,6 +242,36 @@ Extra-large devices (1920px or larger)
 }
 
 .button {
+  display: inline-block;
+  background-color: #52a7cc;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #52a7cc;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+.button:hover {
+  opacity: 0.8;
+}
+
+.button {
+  display: inline-block;
+  background-color: #52a7cc;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #52a7cc;
+  transition: 0.2s opacity;
+}
+
+
+
+.button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #52a7cc;
   color: #ffffff; /* needed to override the default link color */
@@ -234,4 +280,12 @@ Extra-large devices (1920px or larger)
   border-radius: 3px;
   border-bottom: 2px solid #52a7cc; /* width of the border, type, color */
   transition: 0.2s opacity;
+}
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+.button:active {
+  /* selected link */
+  color: #fabb7c;
 }
