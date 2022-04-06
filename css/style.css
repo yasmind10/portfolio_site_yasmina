@@ -49,8 +49,14 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
-img {
+img,
+svg {
   width: 100%;
+}
+
+footer svg {
+  width: 50px;
+  height: 50px;
 }
 a {
   color: #52a7cc;
@@ -104,13 +110,6 @@ a:focus {
   color: #fabb7c;
 }
 
-selector {
-  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
-  position: relative;
-  float: right;
-  width: 80%;
-}
-
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
@@ -125,7 +124,7 @@ selector {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 50px;
 }
 
 header {
@@ -133,6 +132,9 @@ header {
   text-align: center;
   padding: 10px 0;
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 nav > ul {
@@ -180,6 +182,9 @@ header {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+  .col-md-6 {
+  width: 50%;
+}
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -195,6 +200,12 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+   .col-lg-7 {
+
+  }
+   .col-lg-5 {
+     
+  }
 }
 /* ==============================
 X-large devices (1440px or larger)
@@ -227,9 +238,7 @@ Extra-large devices (1920px or larger)
   display: block;
 }
 
-.col-md-6 {
-  width: 50%;
-}
+
 @keyframes color-change {
   from {
     fill: #edc655;
