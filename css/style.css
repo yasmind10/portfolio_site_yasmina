@@ -158,6 +158,18 @@ nav > ul > li > a:hover {
   padding: 0 15px;
 }
 
+nav > ul > li {
+  display: inline-block;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+} 
+
+
 #hero {
   background-color: #ffe4c4;
   padding: 20px 0;
