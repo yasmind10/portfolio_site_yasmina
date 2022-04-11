@@ -170,6 +170,23 @@ nav > ul > li {
   font-size: 20px;
 } 
 
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
 
 #hero {
   background-color: #ffe4c4;
@@ -184,7 +201,7 @@ nav > ul > li {
 }
 
 main {
-  padding-top: 133px;
+  padding-top: 56px;
 }
 
 header {
