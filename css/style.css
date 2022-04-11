@@ -128,7 +128,7 @@ a:focus {
 }
 
 header {
-  background-color: #ffe4c4;
+  background-color: #ffffff;
   text-align: center;
   padding: 10px 0;
   position: fixed;
@@ -168,28 +168,27 @@ nav > ul > li {
   right: 0;
   top: 2px;
   font-size: 20px;
-} 
+}
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
 
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
-
 #hero {
-  background-color: #ffe4c4;
+  background-color: #ffffff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -213,8 +212,8 @@ Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
   .col-md-6 {
-  width: 50%;
-}
+    width: 50%;
+  }
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -230,11 +229,9 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-   .col-lg-7 {
-
+  .col-lg-7 {
   }
-   .col-lg-5 {
-     
+  .col-lg-5 {
   }
 }
 /* ==============================
@@ -267,7 +264,6 @@ Extra-large devices (1920px or larger)
 #hero span {
   display: block;
 }
-
 
 @keyframes color-change {
   from {
