@@ -21,14 +21,24 @@
     <header>
         <!-- For the navigation -->
         <div class="container">
-            <img class="logo" src="./img/assets/yas_logo@1x.png" alt="Yas Perspective">
-            <nav>
-                <ul class="navigation">
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="navtoggle" id="myNavtoggle">
+                <img class="logo" src="./img/assets/yas_logo@1x.png" alt="Yas Perspective">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="files/yasminas-resume.pdf">Resume</a></li>
+                        <li>
+                            <a href="#contact" onclick="menuToggle()">Contact</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                                <i class="fas fa-bars"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
