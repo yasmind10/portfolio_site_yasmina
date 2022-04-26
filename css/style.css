@@ -10,7 +10,7 @@ body {
 }
 /*
 Colors used:
-Primary Color (Blue): #52A7CC;
+Primary Color (Blue): #2F7EA1;
 Secondary Color (Orange): #FABB7C;
 */
 body {
@@ -59,7 +59,7 @@ footer svg {
   height: 50px;
 }
 a {
-  color: #52a7cc;
+  color: #2F7EA1;
   text-decoration: none; /* No underlining */
 }
 a:hover {
@@ -68,7 +68,7 @@ a:hover {
 }
 a:visited {
   /* visited link */
-  color: #52a7cc;
+  color: #2F7EA1;
 }
 a:active {
   /* selected link */
@@ -82,12 +82,12 @@ a:focus {
 
 .button.contact {
   background-color: transparent;
-  color: #52a7cc;
+  color: #2F7EA1;
   text-transform: uppercase;
-  border: 2px solid #52a7cc;
+  border: 2px solid #2F7EA1;
 }
 .button.contact:hover {
-  background-color: #52a7cc;
+  background-color: #2F7EA1;
   color: #ffffff;
 }
 .button.contact:active {
@@ -97,12 +97,12 @@ a:focus {
 
 .button.contact {
   background-color: transparent;
-  color: #52a7cc;
+  color: #2F7EA1;
   text-transform: uppercase;
-  border: 2px solid #52a7cc;
+  border: 2px solid #2F7EA1;
 }
 .view.cv:hover {
-  background-color: #52a7cc;
+  background-color: #2F7EA1;
   color: #ffffff;
 }
 .view.cv:active {
@@ -319,13 +319,13 @@ cloud-front {
 
 .button {
   display: inline-block;
-  background-color: #52a7cc;
+  background-color: #2F7EA1;
   color: white;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #52a7cc;
+  border-bottom: 2px solid #2F7EA1;
   transition-duration: 0.2s;
   transition-property: opacity;
 }
@@ -335,12 +335,12 @@ cloud-front {
 
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #52a7cc;
+  background-color: #2F7EA1;
   color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #52a7cc; /* width of the border, type, color */
+  border-bottom: 2px solid #2F7EA1; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 .button:hover {
