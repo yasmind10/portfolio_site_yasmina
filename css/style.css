@@ -11,7 +11,7 @@ body {
 /*
 Colors used:
 Primary Color (Blue): #2F7EA1;
-Secondary Color (Orange): #FABB7C;
+Secondary Color (Orange): #B75F07;
 */
 body {
   font-family: "Lato", sans-serif;
@@ -63,7 +63,7 @@ a {
   text-decoration: none; /* No underlining */
 }
 a:hover {
-  color: #fabb7c;
+  color: #b75f07;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 a:visited {
@@ -72,7 +72,7 @@ a:visited {
 }
 a:active {
   /* selected link */
-  color: #fabb7c;
+  color: #b75f07;
 }
 a:hover,
 a:focus {
@@ -92,7 +92,7 @@ a:focus {
 }
 .button.contact:active {
   /* selected link */
-  color: #fabb7c;
+  color: #b75f07;
 }
 
 .button.contact {
@@ -107,7 +107,7 @@ a:focus {
 }
 .view.cv:active {
   /* selected link */
-  color: #fabb7c;
+  color: #b75f07;
 }
 
 .row {
@@ -314,7 +314,7 @@ cloud-front {
 }
 .button:active {
   /* selected link */
-  color: #fabb7c;
+  color: #b75f07;
 }
 
 .button {
@@ -349,5 +349,5 @@ cloud-front {
 }
 .button:active {
   /* selected link */
-  color: #fabb7c;
+  color: #b75f07;
 }
