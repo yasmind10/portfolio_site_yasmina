@@ -1,0 +1,43 @@
+# Query: 52a7cc
+# ContextLines: 1
+
+11 results - 1 file
+
+css/style.css:
+   70    /* visited link */
+   71:   color: #2F7EA1;
+   72  }
+
+   84    background-color: transparent;
+   85:   color: #2F7EA1;
+   86    text-transform: uppercase;
+   87:   border: 2px solid #2F7EA1;
+   88  }
+   89  .button.contact:hover {
+   90:   background-color: #2F7EA1;
+   91    color: #ffffff;
+
+   99    background-color: transparent;
+  100:   color: #2F7EA1;
+  101    text-transform: uppercase;
+  102:   border: 2px solid #2F7EA1;
+  103  }
+  104  .view.cv:hover {
+  105:   background-color: #2F7EA1;
+  106    color: #ffffff;
+
+  321    display: inline-block;
+  322:   background-color: #2F7EA1;
+  323    color: white;
+
+  327    border-radius: 3px;
+  328:   border-bottom: 2px solid #2F7EA1;
+  329    transition-duration: 0.2s;
+
+  337    display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  338:   background-color: #2F7EA1;
+  339    color: #ffffff; /* needed to override the default link color */
+
+  342    border-radius: 3px;
+  343:   border-bottom: 2px solid #2F7EA1; /* width of the border, type, color */
+  344    transition: 0.2s opacity;
